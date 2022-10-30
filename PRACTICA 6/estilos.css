@@ -1,0 +1,31 @@
+*{
+    background: Darkred;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    color: red;
+    background: white;
+}
+
+h3{
+    color: red;
+    background: Snow;
+}
+
+p{
+    color: rgb(252, 255, 85);
+}
+
+.especial{
+    color: Darkred;
+    background: rgb(252, 255, 85);
+}
+
+ol{
+    color: Bisque;
+}

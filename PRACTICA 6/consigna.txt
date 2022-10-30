@@ -1,0 +1,28 @@
+PRACTICA 26/10
+
+-Confeccionar una pagina web que contenga: Un titulo principal, 3 parrafos contenidos dentro de un div (uno de ellos debe contener un enlace) y una lista ordenada que contenga 5 items.
+
+--Modificar el color de fondo
+
+--Crear una hoja de estilos que este vinculada a la pagina del apartado anterior
+
+--Modificar color de texto y de fondo del primer y ultimo parrafo 
+
+--Modificar el color de texto de los items de la lista
+
+--Modificar el color de texto y de fondo del titulo principal
+
+
+  Colores utilizados:
+
+-Bisque
+
+-White
+
+-Indianred
+
+-Darkred
+
+-Darksalmon
+
+-Snow
