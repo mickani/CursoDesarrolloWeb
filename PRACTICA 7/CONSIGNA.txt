@@ -1,0 +1,52 @@
+PRACTICA 09/11
+
+
+-Confeccionar una pagina en html que contenga:
+  -> 1 titulo principal
+  -> 3 parrafos con su titulo correspondiente
+  -> 1 imagen (ruta local o externa)
+  -> 1 enlace que se abra en otra pestaña
+  -> 1 pie de pagina que contenga un numero telefonico y un mail
+
+-Modificar el titulo principal con un color a eleccion:      
+  -> Tamaño de texto de 50px y alineado al centro. 
+  -> Borde superior e inferior de un ancho de 3px  
+  -> Relleno superior e inferior de 20px
+  -> Bordes solidos. 
+  -> Colocarlo en mayusculas (propiedad)
+
+-Modificar los titulos secundarios con un margen izquierdo de 20px y un color a eleccion con una opacidad de 0.8
+
+-Modificar el primer y tercer parrafo con un color de fondo a eleccion y un color de texto acorde al fondo (tener en cuenta el contraste)
+  -> Tamaño de letra pequeña
+  -> En mayuscula
+  -> Margen izquierdo de 50px y Margen inferior de 100px
+  -> Tipo de fuente externo
+  -> Relleno de 20px
+  -> Ancho de 700px
+
+-Modificar el borde de la imagen para que se muestre redonda (border-radius): 
+  -> Ancho de borde 4px
+  -> Color de borde a eleccion en formato RGB,
+  -> Borde doble
+  -> Margen izquierdo de 25% y un margen superior de 50px
+  -> Relleno de 4px
+
+-Modificar el segundo parrafo con un borde de 10px:
+  -> Groove
+  -> Color de borde a eleccion
+  -> Tamaño de fuente mediana
+  -> Con un texto justificado e inclinado
+  -> Tipo de fuente a eleccion
+  -> Relleno de 30px
+  -> Margen inferior de 50px
+  -> Margen izquierdo 35%
+  -> Ancho de 550px
+
+-Modificar el enlace quitando el subrayado
+
+-Modificar el pie de pagina con un borde superior doble:
+  -> Texto alineado hacia la derecha
+  -> Tipo de fuente a eleccion
+  -> Color de fondo a eleccion con una opacidad de 0.6
+  -> Relleno de 20px y un relleno izquierdo de 30px

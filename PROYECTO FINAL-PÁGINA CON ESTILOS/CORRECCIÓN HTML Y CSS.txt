@@ -1,0 +1,484 @@
+>>Se fue marcando con "=>" los lugares donde había que corregir<<
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-->ARCHIVO HTML(realizar las correcciones correspondientes)
+
+
+<!DOCTYPE html>
+<html lang="en"> =>correcion
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewdivort" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="httdivs://fonts.googleadivis.com/css2?family=Anton&family=divromdivt:wght@500&disdivlay=swadiv"
+        rel="stylesheet">
+    <title>Pagina a Corregir</title>
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Portafolio<a>
+                    <a href="#">Servicios</a>
+                    <a href="#">Contacto</a>
+
+        </nav>
+        <section class="textos-header"> => texto"s""
+            <h1>Potencia tus Ventas al menos a un 20%</h1>
+            <h2>Con una pagina Web Potente</h2>
+        </section>
+
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M-1.69,68.59 C169.29,219.58 386.57,-26.13 500.00,49.98 L500.00,150.00 L-7.34,175.17 Z"
+                    style="stroke: none; fill: rgb(250, 250, 250);"></path>
+            </svg>
+        </div>
+    </header>
+
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Nuestro Producto</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/nosotros.webp" class="imagen-sobre-nosotros" alt="fondo"> => "alt"
+                <div clas="contenido-textos">
+                    <h3><span>1</span>Los mejores productos</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                    <h3><span>2</span>Los mejores productos</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Portafolio</h2>
+                <div class="galeria-port"> =>div estaba vacío
+
+                    <div class="imagen-port">
+                        <img src="/img/fondo1.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/clickpng.png" alt="clickSinFondo">
+                            <p>descripción 1: Lorem ipsum.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="clientes contenedor">
+            <h2 class="titulo">Que dicen nuestros Clientes</h2>
+            <div class="cards"> =>div estaba vacío
+                <div class="card">
+                    <img src="img/perso.jpg" alt="perfil1">
+                    <div class="contenido-texto-card">
+                        <h4>Nombre 1</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, atque?</p>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+
+        </section>
+        <section class="sobre-servicios">
+
+            <div class="contendor">
+                <h2 class="titulo">Nuestros Servicios</h2>
+                <div class="servicio-cont">=> clase mal escrita
+                    <div class="servicio-ind">
+                        <img src="img/ilustracion1.svg" alt="ilustracion"> =>faltaba el "alt"
+                        <h3>Name</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/ilustracion4.svg" alt="ilustracion"> =>faltaba el "alt">
+                        <h3>Name</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/ilustracion3.svg" alt="ilustracion"> =>faltaba el "alt">
+                        <h3>Name</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-footer">=> clase mal escrita
+                <h4>Telefono</h4>
+                <p>2645667788</p>
+            </div>
+            <div class="content-footer">
+                <h4>Email</h4>
+                <p>ejemplo@gmail.com</p>
+            </div>
+            <div class="content-foter">
+                <h4>Ubicacion</h4>
+                <p>#######</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy;Introduccion al Desarrollo Web | San Juan Tec</h2>
+    </footer>
+
+</body>=>  estiqueta body no estaba cerrado
+</htmll>
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+-->ARCHIVO CSS (Incompleto)
+
+/* -->ARCHIVO CSS (Incompleto) */
+
+/* => margin y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =>font-family */
+body {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+/* =>padding, width, max-width, margin */
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* => "titulo" estaba vacío*/
+.titulo {
+    color: steelblue;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/*HEADER*/
+
+
+/*=> width, height, background: -webkit-linear-gradient,background: linear-gradient, position*/
+header {
+    width: 100%;
+    height: 600px;
+    background: #fc00ff;
+    background: -webkit-linear-gradient(to right, rgba(0, 219, 222, 0.5), rgba(252, 0, 255, .5));
+    background: linear-gradient(to right, rgba(0, 219, 222, 0.5), rgba(252, 0, 255, .5)), url(img/fondo1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+/* =>text-align,  padding*/
+nav {
+    text-align: right;
+    padding: 30px;
+}
+
+/* =>nav vacío*/
+nav a {
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+/* =>nav a:hover vacío*/
+nav a:hover {
+    text-decoration: underline;
+    background: white;
+    color: rgb(151, 0, 188);
+}
+
+/* =>header .textos-header vacío*/
+header .textos-header {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* .textos-header h1 vacío */
+.textos-header h1 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+/* .wave vacío */
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*SOBRE NOSOTROS*/
+
+/* .contenedor-sobre-nosotros vacío */
+.contenedor-sobre-nosotros {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .imagen-sobre-nosotros vacío */
+.imagen-sobre-nosotros {
+    width: 48%;
+}
+
+/* .sobre-nosotros .contenido-textos vacío*/
+.sobre-nosotros .contenido-textos {
+    width: 48%;
+}
+
+/* .contenido-textos h3 vacío */
+.contenido-textos h3 {
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+/* .contenido-textos h3 span vacío */
+.contenido-textos h3 span {
+    background: rgb(255, 125, 183);
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    margin-right: 5px;
+}
+
+/* .contenido-textos p vacío */
+.contenido-textos p {
+    padding: 0 0 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+/*PORTAFOLIO*/
+/* .portafolio vacío */
+.portafolio {
+    background: rgb(250, 228, 255);
+}
+
+/* .galeria-port vacío */
+.galeria-port {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* =>width, margin-bottom, height, position */
+magen-port {
+    width: 24%;
+    margin-bottom: 10px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* =>width, height, object-fit, display */
+.imagen-port img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    display: block;
+    object-fit: cover;
+}
+
+/* .hover-galeria vacío */
+.hover-galeria {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: hsla(276, 20%, 65%, .5);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .hover-galeria img vacío */
+.hover-galeria img {
+    width: 130px;
+}
+
+/* .hover-galeria p {} vacío */
+.hover-galeria p {
+    color: white;
+}
+
+.imagen-port:hover .hover-galeria {
+    transform: scale(0);
+}
+
+
+/*CLIENTES*/
+
+/* => vacío */
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* vacío */
+.cards .card {
+    background: rgb(216, 245, 252);
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+/* =>width, height, border, border-radius, display */
+.cards .card img {
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+    border-radius: 50%;
+    display: block;
+    object-fit: cover;
+}
+
+/* => vacío */
+.cards .card .contenido-texto-card {
+    width: 60%;
+    color: darkcyan;
+}
+
+/* =>padding-top */
+.cards .card .contenido-texto-card p {
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+/*NUESTRO EQUIPO*/
+
+/* => vacío */
+.sobre-servicios {
+    background: #feb5ff;
+    padding-bottom: 30px;
+}
+
+/* => vacío */
+.servicio-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* => vacío */
+.servicio-ind {
+    width: 28%;
+    text-align: center;
+}
+
+/* => vacío */
+.servicio-ind img {
+    width: 90%;
+}
+
+/* => vacío */
+.servicio-ind h3 {
+    margin: 10px;
+}
+
+/* text-align: left; */
+.servicio-ind p {
+    font-weight: 300;
+    text-align: left;
+}
+
+/*FOOTER*/
+
+/* background-color, padding, margin */
+footer {
+    background-color: slateblue;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* => vacío */
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+/* => vacío */
+.content-footer {
+    text-align: center;
+}
+
+/* => vacío */
+.content-footer h4 {
+    color: white;
+    border-bottom: 1px solid #0c008d;
+    margin-bottom: 10px;
+}
+
+/* => vacío */
+.content-footer p {
+    color: white;
+}
+
+/* => vacío */
+.titulo-final {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+    color: white;
+}
